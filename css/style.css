@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: white;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.hero {
+    height: 100vh;
+    background: url('../images/dark-knight-cover.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero__title {
+    font-size: 4rem;
+}
+
+.hero__subtitle {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.btn {
+    background-color: #ffcc00;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.btn:hover {
+    background-color: #ffaa00;
+}
+
+.about, .gallery, .footer {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.gallery__images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery__image {
+    width: 30%;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #111;
+    padding: 20px 0;
+    color: #fff;
+}
